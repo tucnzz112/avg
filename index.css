@@ -1,0 +1,40 @@
+/* CSS selector
+- chỉ ra thẻ nào cần st
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    background-color: #e7e7e7;
+    padding: 20px;
+}
+label{
+    width: 300px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+}
+input{
+    width: calc(100% - 300px);
+    padding: 10px 15px;
+    
+}
+div{
+    white-space: nowrap;
+    margin: 20px 0;
+}
+button{
+    background-color: #22c55e;
+    color: #fff;
+    padding: 15px 25px;
+    border: hidden; /*làm mất viền*/
+}
+.result{
+    background-color: rgb(220 252 231);
+    color: rgb(21 128 61);
+    border: 1px solid rgb(187 247 208);
+    display: none;
+
+}
